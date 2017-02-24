@@ -1,2 +1,248 @@
+<!DOCTYPE html>
 <html>
+<style>
+
+body {
+	background-color: #F1F1F1	
+}
+#navbar {
+	position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+
+  border-bottom:1px solid grey;
+}
+
+#searchbox{	
+
+	/* position */
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:30px;
+	
+	padding: 5px;
+	padding-right:350px;
+
+	font-size:14px;
+}
+
+#youtube_logo{
+	height:75px;
+
+	margin-top: -12px;
+	float:left;
+}
+
+button{
+	font-family:arial,sans-serif;
+  font-size:12px;
+  border-radius: 2px;
+  border:1px solid;
+  border-color: transparent;
+  color:#757575;
+  background-color: #f2f2f2;
+  padding: 10px 20px 10px 20px;
+}
+
+button:hover{
+    color:black;
+    border-color: #A9A9A9;
+}
+
+#collapsible_menu {
+	float:left;
+	height:23px;
+	margin-top:14px;
+	margin-left:20px;
+}
+
+.video{
+	margin-top:60px;
+}
+
+.channel {
+	width:620px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	background-color:white;
+
+	padding: 10px;
+}
+
+.recommended {
+	float:right;
+	display:inline;
+}
+
+.description {
+	width:620px;
+	background-color: white;
+	padding: 10px;
+}
+
+#left {
+	float:left;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+#right {
+}
+
+#recommended {
+	padding-top:60px;
+
+}
+
+#recommended li {
+	list-style: none;
+	margin-top:10px;
+}
+
+.comments {
+	width:620px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color:white;
+	padding: 10px;
+}
+
+.commenters li{
+	list-style: none;
+}
+
+</style>
+
+<body>
+
+<div id="left">
+	<div id="navbar">
+		<img src="collapsible_menu.png" id="collapsible_menu">
+		<img src="youtube_logo.png" id="youtube_logo" >
+		<input id="searchbox" type="text">
+		<button class="button" id="search" type="button" text="Search">Search</button>
+	</div>
+
+
+
+	<div class="video">
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/SC4xMk98Pdc"></iframe>
+	</div>
+
+
+
+	<div class="channel">
+		Post Malone - Congratulations ft. Quavo
+		<br>
+
+		<img src="channel.png" style="width:220px; margin-top:5px; margin-bottom:-10px">
+		<p style="float:right; margin-top:40px; margin-bottom:-20px">31,045,931 views</p>
+
+		<hr>
+		<img src="video_options.png" style="margin-top:-6px; margin-bottom: -10px" height="40">
+
+		<p style="float:right; font-size: 14px; margin-top:6px">9</p>
+		<img style="float:right; -webkit-transform: rotate(180deg);"src="thumbs_up.PNG" width="35">
+
+		<p style="float:right; font-size: 14px; margin-top:6px">1,402</p>
+		<img style="float:right"src="thumbs_up.PNG" width="35" alt="submit">
+
+	</div>
+
+	<div class="description">
+	<b>Published on Jan 23, 2017</b>
+	<p>Congratulations ft. Quavo (Official Video)<br>
+	Taken from the album Stoney</p>
+	<hr>
+	<p style="font-size: 10px;">SHOW MORE</p> 
+
+	</div>
+
+	<div class="comments">
+	<p>COMMENTS • 4</p>
+	<img src="icon.png" style="width:50px">
+	<textarea rows="3" cols="70" style="margin-left:20px"></textarea>
+	<br><br>
+	<hr>
+	<img src="comment_menu.png" style="width:115px">
+
+	<div class="commenters">
+		<li>
+			<img src="user_1.png" style="width:50px; float:left;">
+			<p style="margin-left: 60px; font-size:16px">Hello, The best video about this topic. Thank you verry much. Thank you. And HAPPY NEW YEAR 2017﻿</p>
+			<h5>rogueUser1 - 4 days ago</h5>
+			<hr>
+		</li>
+		<li>
+			<img src="user_2.png" style="width:50px; float:left">
+			<p style="margin-left: 60px; margin-bottom: -5px;font-size:16px">Thanks!</p><br>
+			<h5>like A God - 1 month ago</h5>
+			<hr>
+		</li>
+		<li>
+			<img src="user_3.png" style="width:50px; float:left">
+			<p style="margin-left: 60px; font-size:16px;margin-bottom: -5px;">Please send download file.</p><br>
+			<h5>Official Sniper Hero - 1 year ago</h5>
+			<hr>
+		</li>
+		<li>
+			<img src="user_4.png" style="width:50px; float:left">
+			<p style="margin-left: 60px; font-size:16px;margin-bottom: -5px;">Like and favourited :)</p><br>
+			<h5>dreae2 - 3 years ago</h5>
+			<hr>
+		</li>
+
+	</div>
+
+	</div>
+</div>
+
+<div id="right" style="width:1100px;">
+	<div id="recommended">
+		<li>
+			<img src="recommended_1.png" style="width:180px; display:inline">
+			<p style="display: inline">Bryson Tiller - Don't (Explicit Version)</p>
+		</li>
+		<hr>
+		<li>
+			<img src="recommended_2.png" style="width:180px;">
+		</li>
+		<li>
+			<img src="recommended_3.png" style="width:180px">
+		</li>
+		<li>
+			<img src="recommended_4.png" style="width:180px">
+		</li>
+		<li>
+			<img src="recommended_5.png" style="width:180px">
+		</li>
+		<li>
+			<img src="recommended_6.png" style="width:180px">
+		</li>
+		<li>
+			<img src="recommended_7.png" style="width:180px">
+		</li>
+		<li>
+			<img src="recommended_8.png" style="width:180px">
+		</li>
+		<li>
+			<img src="recommended_9.png" style="width:180px">
+		</li>
+	</div>
+</div>
+
+</body>
 </html>
+
+
+
+
+
+
+
